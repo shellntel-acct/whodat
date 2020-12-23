@@ -35,18 +35,19 @@ GeoIP information.
     Options:
         -h, --help         show this screen
         
-
-Requirements:
-     pip install readchar
-
-If using for commercial use or where rate limiting gets in the way, we recommend using
-an inexpensive API key from ip-api.com for "Professional" use.
-
-*** If using ip-api for GeoIP, you must paste your API key into the 'key' variable on line 57
-*** Microsoft may block the guid below, but a new guid can be generated for free through their website
-
-If local copies of ip-ranges.json (AWS IP ranges) and worldwide.json (MS 365 IP ranges)
-do not exist in the current execution path, they will be downloaded and loaded from the 
-following urls:
-  -https://ip-ranges.amazonaws.com/ip-ranges.json
-  -https://endpoints.office.com/endpoints/worldwide
+    
+    Requirements:
+         pip install readchar
+    
+    If using for commercial use or where rate limiting gets in the way, we recommend using
+    an inexpensive API key from ip-api.com for "Professional" use.
+    
+    *** If using ip-api for GeoIP, you must paste your API key into the 'key' variable on line 57
+    *** Microsoft may block the guid below, but a new guid can be generated for free through their website
+    
+    If local copies of ip-ranges.json (AWS IP ranges) and worldwide.json (MS 365 IP ranges)
+    do not exist in the current execution path, they will be downloaded and loaded from the 
+    following urls:
+      -https://ip-ranges.amazonaws.com/ip-ranges.json
+      -https://endpoints.office.com/endpoints/worldwide
+    
