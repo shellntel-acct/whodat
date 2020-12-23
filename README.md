@@ -11,12 +11,12 @@ Whodat.py was written to automate this process by reading in a bulk list of IP a
 GeoIP information.
 
 # Help and Usage
-       _               _             ___  
-      | |             | |        _  / _ \ 
- _ _ _| |__   ___   __| |_____ _| |(_( ) )
-| | | |  _ \ / _ \ / _  (____ (_   _) (_/ 
-| | | | | | | |_| ( (_| / ___ | | |_   _  
- \___/|_| |_|\___/ \____\_____|  \__) (_) 
+           _               _             ___  
+          | |             | |        _  / _ \ 
+     _ _ _| |__   ___   __| |_____ _| |(_( ) )
+    | | | |  _ \ / _ \ / _  (____ (_   _) (_/ 
+    | | | | | | | |_| ( (_| / ___ | | |_   _  
+     \___/|_| |_|\___/ \____\_____|  \__) (_) 
 
 Usage:
     python3 whodat.py <sourceIPfile>
