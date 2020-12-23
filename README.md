@@ -2,7 +2,10 @@
 A tool for doing bulk Whois and GeoIP lookups.
 Includes looking up specific data center locations for AWS and applications for Microsoft
 
-# Why?
+## The Blog
+www.shellntel.com/blog/2020/12/23/in-scope-or-out-of-scope
+
+## Why?
 As pentesters we continue to see our client's external scopes chging as they move more systems to the "cloud". Unfortunately, they
 often forget to include systems they're hosting in AWS, Azure, Google Cloud, etc.  This makes scoping, discovery, and enumeration
 more important than ever. Domain enumeration, subdomain enumeration, and passive DNS sources can uncover dozens if not hundreds of
@@ -10,7 +13,7 @@ systems. Once we know their IP addresses (resolved from FQDN), we need a quick w
 Whodat.py was written to automate this process by reading in a bulk list of IP addresses and outputting a csv containing their Whois and 
 GeoIP information.
 
-# Help and Usage
+## Help and Usage
            _               _             ___  
           | |             | |        _  / _ \ 
      _ _ _| |__   ___   __| |_____ _| |(_( ) )
