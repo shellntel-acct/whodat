@@ -1,4 +1,4 @@
-# whodat
+# whodat.py
 A tool for doing bulk Whois and GeoIP lookups.
 Includes looking up specific data center locations for AWS and applications for Microsoft
 
