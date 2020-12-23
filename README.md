@@ -17,23 +17,24 @@ GeoIP information.
     | | | |  _ \ / _ \ / _  (____ (_   _) (_/ 
     | | | | | | | |_| ( (_| / ___ | | |_   _  
      \___/|_| |_|\___/ \____\_____|  \__) (_) 
-
-Usage:
-    python3 whodat.py <sourceIPfile>
-    python3 whodat.py <sourceIPfile> <outputFile>
-    python3 whodat.py -h | --help
-
-Example:
-    python3 whoday.py sourceiplist.txt
-    python3 whoday.py sourceiplist.txt output.csv
-    python3 whoday.py sourceiplist.txt \\home\\user\\output.csv
-
-Arguments:
-    <sourceIPfile>     Required -text file containing 1 IPv4 IP address per line
-    <outputFile>       Optional -stores to output.csv by default
-
-Options:
-    -h, --help         show this screen
+    
+    Usage:
+        python3 whodat.py <sourceIPfile>
+        python3 whodat.py <sourceIPfile> <outputFile>
+        python3 whodat.py -h | --help
+    
+    Example:
+        python3 whoday.py sourceiplist.txt
+        python3 whoday.py sourceiplist.txt output.csv
+        python3 whoday.py sourceiplist.txt \\home\\user\\output.csv
+    
+    Arguments:
+        <sourceIPfile>     Required -text file containing 1 IPv4 IP address per line
+        <outputFile>       Optional -stores to output.csv by default
+    
+    Options:
+        -h, --help         show this screen
+        
 
 Requirements:
      pip install readchar
